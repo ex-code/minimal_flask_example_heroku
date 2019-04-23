@@ -1,0 +1,5 @@
+build:
+docker:
+    web: Dockerfile
+run:
+    web: heroku ps:scale web=1
